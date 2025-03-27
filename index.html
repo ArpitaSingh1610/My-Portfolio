@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>My Portfolio</title>
+
+    <!-- Tailwind CSS via CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    
+    <style>
+        body {
+            font-family: 'Roboto', sans-serif;
+        }
+    </style>
+</head>
+<body class="bg-[#e1e5f2] text-[#022b3a]">
+
+    <!-- Navigation Bar -->
+    <nav class="bg-[#022b3a] p-6 fixed w-full top-0 left-0 z-50 shadow-lg">
+        <div class="max-w-screen-xl mx-auto flex justify-between items-center">
+            <a href="#" class="text-white text-3xl font-bold">My Portfolio</a>
+            <ul class="flex space-x-6 text-white text-lg">
+                <li><a href="#about" class="hover:text-[#bfdbf7] transition-all duration-300">About Me</a></li>
+                <li><a href="#experience" class="hover:text-[#bfdbf7] transition-all duration-300">Experience</a></li>
+                <li><a href="#projects" class="hover:text-[#bfdbf7] transition-all duration-300">Projects</a></li>
+                <li><a href="#contact" class="hover:text-[#bfdbf7] transition-all duration-300">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+<!-- About Me Section -->
+<section id="about" class="pt-32 pb-20 bg-[#1f7a8c] text-white">
+    <div class="max-w-screen-xl mx-auto px-6 flex flex-col md:flex-row items-center md:items-start gap-10">
+        <img src="images/your-image.jpeg" alt="Your Image" class="w-72 h-72 md:w-80 md:h-80 rounded-full border-4 border-white shadow-xl mt-10">
+        <div class="md:w-3/5 text-center md:text-left">
+            <h2 class="text-4xl font-extrabold mb-6 text-center">About Me</h2>
+            <p class="text-xl leading-relaxed text-justify">
+                I’m <strong>Arpita</strong>, a <strong>Gold Medalist (2023) in Computer Science</strong> with a <strong>9.26/10 CGPA</strong> and a dedicated <strong>full-stack developer, software engineer, and technical writer</strong> passionate about bridging academia and industry.
+                
+                As the <strong>Founder of EduYog Techno (2022-2024)</strong>, I built an <strong>ed-tech platform</strong> offering training in <strong>Data Science, Full-Stack Development, and Technical & Management Writing</strong>, equipping students with industry-ready skills.
+                
+                Currently, I work as a <strong>Software Engineer at Adobe (2025-Present)</strong>, specializing in <strong>backend development</strong> using <strong>Python, Flask, and Firebase</strong>. Previously, as a <strong>Full-Stack Developer at InfoTech (2024-2025)</strong>, I developed <strong>responsive web applications</strong> with <strong>React, Node.js, and JavaScript</strong>.
+              
+                Additionally, I am a <strong>Freelance Technical & Management Writer</strong>, creating <strong>academic and product documentation</strong> with <strong>Tuitor Drive</strong>. I am passionate about <strong>problem-solving, mentorship, and innovation</strong>, striving to build <strong>scalable tech solutions</strong> while empowering aspiring professionals.
+            </p>
+        </div>
+    </div>
+</section>
+
+
+
+
+    <!-- Experience Section -->
+    <section id="experience" class="py-20 bg-[#bfdbf7] text-center">
+        <div class="max-w-screen-xl mx-auto px-6">
+            <h2 class="text-4xl font-extrabold mb-6">Experience</h2>
+            <ul class="space-y-6">
+                <li class="bg-white p-6 rounded-lg shadow-md hover:shadow-xl transition-all duration-300">
+                    <h3 class="text-2xl font-semibold"> Startup-Founder | EduYog Techno</h3>
+                    <p class="text-xl mt-2">(2022-2024) - As the Founder of EduYog Techno, I spearheaded the development of an innovative ed-tech platform aimed at bridging the gap between industry requirements and academic learning. I led a dynamic team in designing and delivering high-quality training programs in Data Science, Full-Stack Development, and Technical & Management Writing, empowering students with industry-relevant skills and real-world expertise.</p>
+                </li>                
+                <li class="bg-white p-6 rounded-lg shadow-md hover:shadow-xl transition-all duration-300">
+                    <h3 class="text-2xl font-semibold">Full-Stack Developer | InfoTech</h3>
+                    <p class="text-xl mt-2">(2024-2025) - Developed responsive, user-friendly websites using React, Node and JavaScript.</p>
+                </li>
+                <li class="bg-white p-6 rounded-lg shadow-md hover:shadow-xl transition-all duration-300">
+                    <h3 class="text-2xl font-semibold">Software Engineer | Adobe</h3>
+                    <p class="text-xl mt-2">(2025-Present) - Worked on backend services using Python, Flask, and Firebase to create scalable solutions.</p>
+                </li>
+                <li class="bg-white p-6 rounded-lg shadow-md hover:shadow-xl transition-all duration-300">
+                    <h3 class="text-2xl font-semibold">Freelancer | Technical Writer & Management Writer</h3>
+                    <p class="text-xl mt-2">Worked with Tuitor Drive to create engaging content, write management and technical content for academic, and collaborate on product documentation.</p>
+                </li>
+            </ul>
+        </div>
+    </section>
+
+<!-- Projects Section -->
+<section id="projects" class="py-20 bg-[#f4f4f4] text-gray-900">
+    <div class="max-w-screen-xl mx-auto px-6 text-center">
+        <h2 class="text-4xl font-extrabold mb-10">Projects</h2>
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+            <!-- Project 1 -->
+            <div class="bg-white p-6 rounded-lg shadow-lg">
+                <h3 class="text-2xl font-semibold">BidInn</h3>
+                <p class="text-lg mt-2">A hotel booking platform where customers can bid for rooms based on availability.</p>
+                <a href="https://www.bidinn.in/" class="text-blue-600 font-semibold mt-4 inline-block">View Project</a>
+            </div>
+            <!-- Project 2 -->
+            <div class="bg-white p-6 rounded-lg shadow-lg">
+                <h3 class="text-2xl font-semibold">AECDF</h3>
+                <p class="text-lg mt-2">An innovative platform providing data-driven solutions for business analytics.</p>
+                <a href="https://www.aecdf.com/" class="text-blue-600 font-semibold mt-4 inline-block">View Project</a>
+            </div>
+            <!-- Project 3 -->
+            <div class="bg-white p-6 rounded-lg shadow-lg">
+                <h3 class="text-2xl font-semibold">Mr. N Mrs. Pet</h3>
+                <p class="text-lg mt-2">An online pet store offering pet adoption, accessories, and pet care services.</p>
+                <a href="https://www.mrnmrspet.com/" class="text-blue-600 font-semibold mt-4 inline-block">View Project</a>
+            </div>
+            <!-- Project 4 -->
+            <div class="bg-white p-6 rounded-lg shadow-lg">
+                <h3 class="text-2xl font-semibold">Formula 1 Management</h3>
+                <p class="text-lg mt-2">A web app built with Python and Firebase for managing Formula 1 teams and drivers.</p>
+            </div>
+            <!-- Project 5 -->
+            <div class="bg-white p-6 rounded-lg shadow-lg">
+                <h3 class="text-2xl font-semibold">The C Minds</h3>
+                <p class="text-lg mt-2">A consultancy and training platform specializing in cognitive and AI-driven solutions.</p>
+                <a href="https://www.thecminds.com/" class="text-blue-600 font-semibold mt-4 inline-block">View Project</a>
+            </div>
+            <!-- Project 6 -->
+            <div class="bg-white p-6 rounded-lg shadow-lg">
+                <h3 class="text-2xl font-semibold">EduYog</h3>
+                <p class="text-lg mt-2">An Ed-Tech platform providing training in Data Science, Full-Stack Development, and more.</p>
+                <a href="https://eduyog.in" class="text-blue-600 font-semibold mt-4 inline-block">View Project</a>
+            </div>
+        </div>
+    </div>
+</section>
+   
+<!-- Education Section -->
+<section id="education" class="py-20 bg-[#114b5f] text-white">
+    <div class="max-w-screen-xl mx-auto px-6 text-center">
+        <h2 class="text-4xl font-extrabold mb-10">Education</h2>
+        <div class="flex flex-col md:flex-row justify-center gap-8">
+            
+            <!-- B.Tech -->
+            <div class="bg-white text-[#1f7a8c] p-6 rounded-lg shadow-lg w-full md:w-1/3">
+                <h3 class="text-2xl font-semibold">Dr. K.N Modi University</h3>
+                <p class="text-lg mt-2">B.Tech in Computer Science and Engineering</p>
+                <p class="text-lg font-semibold mt-1">(2019-2023)</p>
+                <p class="text-lg font-bold mt-2">CGPA: 9.26 | Gold Medalist</p>
+            </div>
+
+            <!-- 12th Grade -->
+            <div class="bg-white text-[#1f7a8c] p-6 rounded-lg shadow-lg w-full md:w-1/3">
+                <h3 class="text-2xl font-semibold">J.P Mahila College</h3>
+                <p class="text-lg mt-2">BSEB | 12th Grade</p>
+                <p class="text-lg font-bold mt-2">Grade A</p>
+            </div>
+
+            <!-- 10th Grade -->
+            <div class="bg-white text-[#1f7a8c] p-6 rounded-lg shadow-lg w-full md:w-1/3">
+                <h3 class="text-2xl font-semibold">High School Gahilapur</h3>
+                <p class="text-lg mt-2">BSEB | 10th Grade</p>
+                <p class="text-lg font-bold mt-2">Grade A</p>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+
+    <!-- Contact Section -->
+    <section id="contact" class="py-20 bg-[#e1e5f2] text-center">
+        <div class="max-w-screen-xl mx-auto px-6">
+            <h2 class="text-4xl font-extrabold mb-6">Contact Me</h2>
+            <p class="text-xl mb-6">Feel free to reach out to me if you have any questions or want to collaborate!</p>
+            <a href="mailto:arpita.tuitordrive@gmail.com" class="bg-[#1f7a8c] text-white py-3 px-6 rounded-lg hover:bg-[#022b3a] transition-all duration-300">Email Me</a>
+            <p class="text-xl mt-4">Call me: <strong>+91 7061122327</strong></p>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-[#022b3a] text-white py-6 text-center">
+        <p>Design by Arpita | @2025</p>
+    </footer>
+
+</body>
+</html>
